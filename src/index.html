@@ -7,8 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
     <div class="game">
+        <div class="upgrades">
+            <div id="power">
+                <img src="./assets/coin.png" alt="coin">
+                <div id="price1"></div>
+                Click +1</div>
+            <div id="auto">
+                <img src="./assets/coin.png" alt="coin">
+                <div id="price2"></div>
+                Auto click +1</div>
+        </div>
         <div class="header">
             <img src="./assets/coin.png" alt="coin">
             <h2 class="score" id="score"></h2>
@@ -16,6 +25,7 @@
         <div class="circle">
             <img id="circle" src="./assets/frog.png" alt="frog">
         </div>
+        <div class="reset" id="reset">Reset score</div>
     </div>
 
     <script src="app.js" defer></script>
